@@ -34,14 +34,13 @@ ml-face-emotion/
 └── results/                 # Output files
 ```
 
-## Dataset Preparation
+## Dataset
+
+Using [AffectNet YOLO Format](https://www.kaggle.com/datasets/fatihkgg/affectnet-yolo-format) dataset from Kaggle.
 
 ```bash
-# Download sample dataset
-python scripts/download_datasets.py --dataset sample --output data/raw
-
-# Convert to YOLO format
-python scripts/prepare_dataset.py --input data/raw --output data/processed
+# Download from Kaggle and extract to data/
+# Dataset already in YOLO format, ready for training
 ```
 
 ## Training
