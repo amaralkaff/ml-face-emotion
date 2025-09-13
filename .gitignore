@@ -1,0 +1,158 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# PyTorch/Model files
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.weights
+*.safetensors
+
+# Dataset directories
+data/
+datasets/
+
+# Training runs
+runs/
+wandb/
+logs/
+checkpoints/
+
+# Results and outputs
+results/
+outputs/
+predictions/
+analysis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Configuration (keep only template)
+config.yaml
+!config.template.yaml
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+temp/
+tmp/
+cache/
+
+# Documentation - exclude all except README.md
+*.md
+!README.md
+
+# Claude specific
+claudedocs/
+CLAUDE.md
+
+# Models directory (if storing downloaded models)
+models/
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Scripts output
+scripts/__pycache__/
+scripts/*.pyc
+
+# Utils cache
+utils/__pycache__/
+utils/*.pyc
+
+# Demo outputs
+demo_outputs/
+screenshots/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Package files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*_backup*
+*.old
+
+# Lock files
+*.lock
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
